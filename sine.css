@@ -21,3 +21,7 @@ html, body, #canvas-container {
   	border-radius:15px;
 	transition-duration: 5s;
 }
+
+#canv:hover {
+	transform: rotate(5turn);
+}

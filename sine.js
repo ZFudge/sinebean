@@ -69,5 +69,3 @@ function keyPushed(btn) {
 		(board.active) ? loop = setInterval(main, board.speed) : clearInterval(loop);
 	}
 }
-
-setTimeout(function(){canvas.style.transform = 'rotate(5turn)';},1);
